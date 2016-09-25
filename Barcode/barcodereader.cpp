@@ -3,7 +3,7 @@
 #include <QPainter>
 
 #include <opencv2/opencv.hpp>
-#include <QtOpenCV/QtOpenCV.h>
+#include "QtOpenCV.h"
 #include <QCamera>
 
 #include <zbar.h>

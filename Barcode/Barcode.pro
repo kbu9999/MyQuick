@@ -22,10 +22,11 @@ unix {
 }
 
 HEADERS += \
-    barcodereader.h
+    barcodereader.h \
+    QtOpenCV.h
 
 SOURCES += \
-    barcodereader.cpp
+    barcodereader.cpp \
+    QtOpenCV.cpp
 
 LIBS += -lzbar
-LIBS += -L /usr/lib/x86_64-linux-gnu/qt5 -lQtOpenCV
