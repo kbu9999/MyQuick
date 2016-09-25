@@ -17,7 +17,21 @@ QMLMETAFILES = Meta/qmldir \
     Meta/MetaRolDetalle.qml \
     Meta/MetaUsuario.qml
 
-DISTFILES = $$QMLFILES $$QMLMETAFILES
+DISTFILES = $$QMLFILES $$QMLMETAFILES \
+    ConfigPage.qml \
+    ConfigStyle.qml \
+    LoginStyle.qml \
+    MenuView.qml \
+    SecWindow.qml \
+    DB/_qmldir \
+    DB/Log.qml \
+    DB/Plugin.qml \
+    DB/Rol.qml \
+    DB/RolDetalle.qml \
+    DB/Usuario.qml \
+    private/PanelConfig.qml \
+    private/PanelLogin.qml \
+    Meta/MetaLog.qml
 
 
 include(../qmlmodule.pri)

@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import OrmQuick 1.0
 
-import "Meta"
+import "./Meta"
 
 OrmObject {
     id: main

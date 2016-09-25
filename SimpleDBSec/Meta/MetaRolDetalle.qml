@@ -11,5 +11,5 @@ OrmMetaTable {
         OrmMetaForeignKey{ property: 'plugin'; attribute: 'idPlugin'; foreignTable: "sec_Plugin"; index: 2  }
     ]
     
-    url: "../RolDetalle.qml"
+    url: "../DB/RolDetalle.qml"
 }

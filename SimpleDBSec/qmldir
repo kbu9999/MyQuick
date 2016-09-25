@@ -1,9 +1,7 @@
 module com.kbu9999.SimpleDBSec
 
-
-Plugin       1.0  Plugin.qml 
-Rol          1.0  Rol.qml 
-RolDetalle   1.0  RolDetalle.qml 
-Usuario      1.0  Usuario.qml 
-
-LoginManager 1.0 LoginManager.qml
+ConfigPage      1.0 ConfigPage.qml
+ConfigStyle     1.0 ConfigStyle.qml
+LoginStyle      1.0 LoginStyle.qml
+MenuView        1.0 MenuView.qml
+SecWindow       1.0 SecWindow.qml

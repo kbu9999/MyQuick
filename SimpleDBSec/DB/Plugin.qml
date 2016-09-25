@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import OrmQuick 1.0
 
-import "Meta"
+import "../Meta"
 
 OrmObject {
     id: main
@@ -14,7 +14,6 @@ OrmObject {
     property string key 
      
     property list<OrmObject> roldetalle
-    
       
     function appendRolDetalle(add) {
         append(MetaRolDetalle, add);

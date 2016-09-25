@@ -15,5 +15,5 @@ OrmMetaTable {
         OrmMetaRelation { relationTableName: "Sec_RolDetalle"; property: "roldetalle" }
     ] 
     
-    url: "../Plugin.qml"
+    url: "../DB/Plugin.qml"
 }

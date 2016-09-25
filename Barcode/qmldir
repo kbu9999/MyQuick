@@ -1,3 +1,4 @@
 module com.kbu9999.Barcode
+plugin qml_barcode
 
 Barcode      1.0 Barcode.qml

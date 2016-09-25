@@ -1,0 +1,8 @@
+module com.kbu9999.SimpleDBSec.DB
+
+Log          1.0  Log.qml
+Plugin       1.0  Plugin.qml 
+Rol          1.0  Rol.qml 
+RolDetalle   1.0  RolDetalle.qml 
+Usuario      1.0  Usuario.qml 
+
