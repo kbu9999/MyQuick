@@ -18,7 +18,8 @@ qmldir.files = $$DISTFILES
 unix {
     installPath = $$[QT_INSTALL_QML]/$$replace(uri, \\., /)
     qmldir.path = $$installPath
-    INSTALLS += qmldir
+    target.path = $$installPath
+    INSTALLS += target qmldir
 }
 
 HEADERS += \
