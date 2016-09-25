@@ -61,8 +61,8 @@ Item {
         function login(user, pass) {
             addBindValue(":user", user)
             addBindValue(":pass", pass)
-            fPass.clear()
-            fUser.clear()
+            fPass.text = ""
+            fUser.text = ""
             fUser.focus = true
             var users = load();
             if (users.length <= 0) {
