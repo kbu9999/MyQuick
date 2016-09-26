@@ -4,11 +4,11 @@ TARGET = FieldPanel
 TARGET = $$qtLibraryTarget($$TARGET)
 uri = com.kbu9999.SimpleDBSec
 
-QMLFILES = BD/qmldir \
-    BD/Plugin.qml \
-    BD/Rol.qml \
-    BD/RolDetalle.qml \
-    BD/Usuario.qml \
+QMLFILES = DB/qmldir \
+    DB/Plugin.qml \
+    DB/Rol.qml \
+    DB/RolDetalle.qml \
+    DB/Usuario.qml \
     DB/Log.qml
 
 QMLMETAFILES = Meta/qmldir \
@@ -28,8 +28,7 @@ QMLUIFILES = qmldir \
 PRFILES = private/PanelConfig.qml \
     private/PanelLogin.qml
 
-DISTFILES = $$QMLFILES $$QMLMETAFILES \
-    $$QMLUIFILES $$PRFILES
+DISTFILES = $$QMLFILES $$QMLMETAFILES $$QMLUIFILES $$PRFILES
 
 include(../qmlmodule.pri)
 
