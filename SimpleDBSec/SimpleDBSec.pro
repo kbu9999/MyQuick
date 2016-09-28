@@ -23,6 +23,7 @@ QMLUIFILES = qmldir \
     ConfigStyle.qml \
     LoginStyle.qml \
     MenuView.qml \
+    ConfigDB.qml \
     SecWindow.qml
 
 PRFILES = private/PanelConfig.qml \

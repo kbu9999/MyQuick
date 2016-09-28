@@ -7,6 +7,11 @@ CONFIG += qt plugin c++11
 TARGET = $$qtLibraryTarget($$TARGET)
 uri = com.kbu9999.Barcode
 
+unix {
+    CONFIG += link_pkgconfig
+    PKGCONFIG += opencv
+}
+
 DISTFILES = qmldir \
     code39.js \
     Barcode.qml

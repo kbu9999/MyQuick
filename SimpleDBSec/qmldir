@@ -3,5 +3,6 @@ module com.kbu9999.SimpleDBSec
 ConfigPage      1.0 ConfigPage.qml
 ConfigStyle     1.0 ConfigStyle.qml
 LoginStyle      1.0 LoginStyle.qml
+ConfigDB        1.0 ConfigDB.qml
 MenuView        1.0 MenuView.qml
 SecWindow       1.0 SecWindow.qml

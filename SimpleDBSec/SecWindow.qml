@@ -13,6 +13,7 @@ ApplicationWindow {
     width: 800
     height: 600
 
+    property OrmDataBase db
     readonly property alias user: login.user
     property alias window: windowld.item
     property alias showConfig: config.visible
@@ -40,7 +41,7 @@ ApplicationWindow {
         value: width
     }
 
-    property OrmDataBase db
+
 
     Component.onCompleted: {
         if (!db) return
