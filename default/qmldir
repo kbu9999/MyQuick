@@ -8,3 +8,6 @@ IconButton     1.0 IconButton.qml
 OpButton       1.0 OpButton.qml
 Search         1.0 Search.qml
 FieldCal       1.0 FieldCal.qml
+
+MyStackView    1.0 MyStackView.qml
+ValueCapture   1.0 ValueCapture.qml

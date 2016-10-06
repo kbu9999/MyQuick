@@ -6,5 +6,6 @@ SUBDIRS += \
     FieldPanel \
     Barcode \
     Columns \
-    SimpleDBSec
+    SimpleDBSec \
+    Printer
 

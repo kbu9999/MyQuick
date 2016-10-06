@@ -13,6 +13,8 @@ DISTFILES = qmldir \
     OpButton.qml \
     Search.qml \
     FieldCal.qml \
+    MyStackView.qml \
+    ValueCapture.qml
 
 include(../qmlmodule.pri)
 
