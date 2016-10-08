@@ -1,0 +1,5 @@
+module com.kbu9999.Printer
+plugin qml_print
+
+PrintPage   1.0 PrintPage.qml
+PrintArea   1.0 PrintArea.qml
